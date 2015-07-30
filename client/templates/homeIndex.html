@@ -4,6 +4,10 @@
 
   {{#each product}}
      <h1>{{name}}</h1>
+     <h2>{{question}}</h2>
+
+     <h4>{{polls.poll1.text}} , votes: {{polls.poll1.votes}}</h4>
+     <h4>{{polls.poll2.text}} , votes : {{polls.poll2.votes}}</h4>
   {{/each}}
 
 </template>
